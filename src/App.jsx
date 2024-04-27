@@ -17,27 +17,27 @@ function App(){
 
     return (
     <>
-    <div className='p-11 bg-gradient-to-b from-slate-600 to-black text-white '>
-    <nav className='fixed '>
-        <ul className='flex px-8 gap-8'>
-            <li>
+    <div className='p-11 bg-gradient-to-b from-slate-600 to-black text-white justify-center items-center'>
+    <nav className='hidden sm:block '>
+        <ul className='flex px-8 gap-20 justify-center items-center'>
+            <li className='hover:scale-125 duration-200'>
                 <Link to="/">Home</Link>
 
             </li>
-            <li>
+            <li className='hover:scale-125 duration-200 hover:text-teal-300'>
                
                 <Link to="/aboutus"> About Us</Link>
 
             </li>
-            <li>
+            <li className='hover:scale-125 duration-200'>
                 <Link to="/ourworks"> Our Works</Link>
 
             </li>
-            <li>
+            <li className='hover:scale-125 duration-200'>
                 <Link to="/services"> Our Services</Link>
 
             </li>
-            <li>
+            <li className='hover:scale-125 duration-200'>
                 <Link to="/contactus"> Contact Us</Link>
 
             </li>

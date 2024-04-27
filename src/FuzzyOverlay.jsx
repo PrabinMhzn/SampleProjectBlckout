@@ -48,12 +48,15 @@ const Content = () => {
     <div className=' flex flex-col place-content-center  bg-neutral-700 h-screen '>
        
         <div className='bg-neutral-900 h-screen m-11'>
-        <div className='pt-8' ><p className='text-center text-6xl font-black uppercase text-neutral-100 '>
+        <div className='pt-8  items-center' >
+
+          <h1 className=' text-center text-6xl font-black uppercase text-neutral-100 hover:text-purple-500  '>
             Blockout
-            </p>
+            </h1>
+          
             <p className='text-center justify-center gap-3 text-neutral-400 text-xl pb-4'> From Around the Block</p>
              <div className=' flex items-center justify-center gap-3'>
-            <button className=' w-fit px-2 py-2 font-semibold text-neutral-300 transition-colors hover:bg-neutral-600 rounded-full upper'>Coming Soon</button>
+            <button className=' w-fit px-2 py-2 font-semibold text-neutral-300 transition-colors hover:bg-neutral-600 rounded-full upper'>Click Here</button>
                 </div>
              
              </div> 
